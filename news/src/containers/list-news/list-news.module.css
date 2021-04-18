@@ -1,0 +1,33 @@
+.welcome-title {
+    text-align: center;
+}
+
+.custom_select {
+    font-family: Arial;
+    margin: 10px auto;
+    display: flex;
+}
+.custom_select>h3{
+    margin: 5px 10px 0 0;
+}
+
+.custom_select>select{
+    font-size: 20px;
+    padding:5px 10px;
+    cursor: pointer;
+}
+.option_first_letter::first-letter{
+    text-transform:capitalize;
+}
+.load_more{
+    border: 1px solid black;
+    padding: 10px 30px;
+    background-color: transparent;
+    width: 170px;
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.load_more:hover{
+    border: 2px solid black;
+}
